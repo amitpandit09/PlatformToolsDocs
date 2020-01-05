@@ -119,3 +119,12 @@
 	Check the mesos console
 	 
 	 
+
+
+10 . Install marathon 
+
+>> curl -O http://downloads.mesosphere.com/marathon/v1.5.1/marathon-1.5.1.tgz
+
+>> tar xzf marathon-1.5.1.tgz
+
+>> ./bin/marathon --master zk://zk1.foo.bar:2181,zk2.foo.bar:2181/mesos --zk zk://zk1.foo.bar:2181,zk2.foo.bar:2181/marathon
